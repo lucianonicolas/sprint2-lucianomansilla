@@ -1,0 +1,161 @@
+/*ELEMENTOS COMUNES PARA TODA LA PAGINA*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+a:visited {
+    color: black;
+}
+
+/*ANIMACION CSS*/
+a:hover {
+    color: red;
+}
+
+/*ELEMENOS DEL HEADER: */
+/*TITULO OCULTO PARA DEJAR LA IMAGEN DE LOGO CON EL NOMBRE INCLUIDO*/
+h1{
+    display: none;
+}
+
+/*LOGO CON NOMBRE*/
+.logoHeader{
+    max-width: 500;
+    height: auto;
+}
+
+/*ELEMENTOS COMUNES DEL HEADER*/
+header{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    block-size: 200px;
+    writing-mode: horizontal-tb;
+    margin: auto;
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+}
+
+/*ESPECIFICO DEL MENU DENTRO DEL HEADER*/
+.menuHeader li {
+    list-style-type: none;
+    text-decoration: none;
+    display:inline;
+    text-align: right;
+    padding: 10px;
+}
+
+/*ELEMENTOS DEL MAIN*/
+main{
+    background-image: url(../assets/hogar-imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    block-size: 600px;
+    writing-mode: horizontal-tb;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+/* "vendemos tu casa..." */
+h3{
+    color: aliceblue;
+    font-family: 'Sarala', sans-serif;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+/* "conoce las propiedades..."*/
+.textoParrafo{
+    font-style: italic;
+    color: aliceblue;
+    font-family: 'Sarala', sans-serif;
+    padding-bottom: 50px;
+}
+
+/*"contanos que estas busncando..."*/
+h2{
+    font-size: 35px;
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    background-color: white;
+}
+
+/*ESPECIFICO DEL MENU DENTRO DEL MAIN*/
+
+.menuMain li {
+    text-decoration: none;
+    background-color: rgb(1, 0, 140);
+    display:inline;
+    padding-left: 10px;
+    padding-right:10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Sarala', sans-serif;
+    margin-bottom: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+/*FOOTER*/
+
+footer{
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logoFooter {
+    width: 300px;
+}
+
+.datosDeContacto {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* PAGINA CONTACTO/TASACIONES */
+
+form{
+    background-color: rgb(124, 162, 212);
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/*PAGINA ALQUILERES*/
+.textoAlq1 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    padding: 100px;
+
+}
+
+.textoAlq2 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/*PAGINA VENTA*/
+iframe{
+    width:100%;
+    height: 500px
+
+}
+
+/* RESPONSIVE:
+MEDIA QUERIES
+
+NO LO ENTENDI NI VOLVIENDO A VER LA CLASE. NO PUDE MODIFICAR NADA PORQUE SE ME CAMBIABA TODO. RECIBI AYUDA EN DISCORD DE OTRA PROFE PERO NO PUDE REPLICARLO ERAN MUCHAS COSAS, SUPONGO HUBIESE SIDO DISTINTO SI LO HUBIERA PENSADO ANTES. LOS OTROS ITEMS ESTAN CUMPLIDOS, PERO BUENO...
+PERDON*/
